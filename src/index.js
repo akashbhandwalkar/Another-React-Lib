@@ -17,7 +17,7 @@ import Collapse from "./Collapse/Collapse";
 import Profile from "./Profile/Profile";
 import SearchBar from "./SearchBar/Searchbar";
 import ExtendedText from "./ExtendedText/ExtendedText";
-
+import Loader from "./Loader/Loader";
 export {
   LoadingButton,
   SimpleRedButton,
@@ -37,5 +37,6 @@ export {
   TwitterShare,
   Collapse,
   Profile,
-  SearchBar
+  SearchBar,
+  Loader
 };

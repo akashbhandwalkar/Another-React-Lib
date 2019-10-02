@@ -15,7 +15,8 @@ import {
   Header,
   ExtendedText,
   SearchBar,
-  Switch
+  Switch,
+  Loader
 } from "../../src/index";
 
 
@@ -135,6 +136,10 @@ class Demo extends Component {
 
         <h2>Form Component</h2>
         <Form fields={["input", "textarea", "button"]} />
+        Extra Small Loader: <Loader size="xs"/>
+        Small Loader: <Loader size="sm"/>
+        Medium Loader: <Loader size="md"/>
+        Large Loader: <Loader size="lg"/>
       </div>
     );
   }
